@@ -1,0 +1,31 @@
+{
+  "name": "log-colorfy",
+  "version": "1.0.0",
+  "description": "A library to colorify your console",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikitaJaiswalDev/logo-colorfy.git"
+  },
+  "keywords": [
+    "console log color",
+    "colorify"
+  ],
+  "author": "Nikita Jaiswal <nikita.jaiswal400@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikitaJaiswalDev/logo-colorfy/issues"
+  },
+  "homepage": "https://github.com/nikitaJaiswalDev/logo-colorfy#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
